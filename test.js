@@ -1,0 +1,1 @@
+$('#titleBanner').cycleColors('color',['#ff6347','#ffff00','#ee82ee'],500);
