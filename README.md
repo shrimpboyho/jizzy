@@ -9,9 +9,7 @@ Using jIzzy is very simple.
 
 ```
 <script src="jquery.min.js"></script>
-
 <script src="jquery.jizzy.js"></script>
-
 <script src="yourjavascript.js"></script>
 ```
 
