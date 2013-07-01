@@ -1,4 +1,4 @@
-jizzy
+jIzzy
 =====
 
 A jQuery Plugin
