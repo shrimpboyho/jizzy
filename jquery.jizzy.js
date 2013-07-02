@@ -23,22 +23,20 @@ $.fn.cycleColors = function(cssProperty,arrayToCycle,milliseconds) {
        
        for (var i = 0; i < arrayToCycle.length; i++) {
            var rgb = jqueryObj.css(cssProperty);
-           console.log(rgb2hex(rgb) + " == "+ arrayToCycle[i]);
-           if(rgb2hex(rgb) == arrayToCycle[i]){
+           if(rgb2hex(rgb) == arrayToCycle[i].toLowerCase()){
                
                if(i == arrayToCycle.length - 1){
-                   console.log('Setting css color to',arrayToCycle[0]);
                    jqueryObj.css(cssProperty,arrayToCycle[0]);
                    break;
                }else{
-                   console.log('Setting css color to',arrayToCycle[i + 1]);
+                   // Set the CSS Property
                    jqueryObj.css(cssProperty,arrayToCycle[i+1]);
                    break;
                }
               
                
            }
-       }            
+       }      
     
     },milliseconds);
         
