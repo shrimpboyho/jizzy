@@ -45,5 +45,33 @@ $.fn.cycleColors = function(cssProperty,arrayToCycle,milliseconds) {
     return this;
 };
 
+$.fn.musicify = function(musicURL,options){
+    
+        var audioTag = "<audio ";
+        // This is the easiest way to have default options.
+        var settings = $.extend({
+            // These are the defaults.
+            controls: "true",
+            loop: "false",
+            autoplay: "false"
+        }, options );
+        
+        if(settings.controls == 'true'){
+            audioTag = audioTag + " controls";
+        }
+        if(settings.loop == 'true'){
+            audioTag = audioTag + " loop";
+        }
+        if(settings.autoplay == 'true'){
+            audioTag = audioTag + " autoplay";
+        }
+ 
+        // Make the music player
+        
+        this.html( audioTag + "> <source src=" + musicURL +" >Your browser does not support the audio element.</audio>");
+        return this;
+    
+};
+
     
 }( jQuery ));
