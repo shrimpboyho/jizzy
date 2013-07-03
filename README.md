@@ -30,6 +30,11 @@ $('#titleBanner').cycleColors('color',['#ff6347','#ffff00','#ee82ee'],500);
 Turn a div into an ```<audio>``` object.
 
 ```
+// musicify() function generic
+
+('thing').musicify('file', options);
+
+// Example
 
 $('#musicDiv').musicify('musicfile.mp3', {controls:"true",autoplay:"true",loop:"false"});
 
