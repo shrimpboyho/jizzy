@@ -37,7 +37,6 @@ Turn a div into an ```<audio>``` object.
 // Example
 
 $('#musicDiv').musicify('musicfile.mp3', {controls:"true",autoplay:"true",loop:"false"});
-
 ```
 
 ###Contribute
