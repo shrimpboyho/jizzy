@@ -27,6 +27,14 @@ $('thing').cycleColors('cssProperty',['HEXVALUE','HEXVALUE','HEXVALUE'], millise
 $('#titleBanner').cycleColors('color',['#ff6347','#ffff00','#ee82ee'],500);
 ```
 
+Turn a div into an ```<audio>``` object.
+
+```
+
+$('#musicDiv').musicify('musicfile.mp3', {controls:"true",autoplay:"true",loop:"false"});
+
+```
+
 ###Contribute
 
 Right now jIzzy is very small. If you would like to contribute please make a fork and supply your code.
