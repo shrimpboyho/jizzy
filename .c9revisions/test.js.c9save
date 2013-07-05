@@ -1,0 +1,2 @@
+{"ts":1372881611512,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"$('#titleBanner').cycleColors('color',['#ff6347','#ffff00','#ee82ee'],500);"]],"start1":0,"start2":0,"length1":0,"length2":75}]],"length":75}
+{"contributors":[],"silentsave":false,"ts":1372881765205,"patch":[[{"diffs":[[0,"'],500);"],[1,"\n$('#musicDiv').musicify('http://stephenrippy.com/media/music/Soundtracks_Noddinagushpa.mp3', {controls:\"true\",autoplay:\"true\"});"]],"start1":67,"start2":67,"length1":8,"length2":137}]],"length":204,"saved":false}

@@ -1,1 +1,2 @@
 $('#titleBanner').cycleColors('color',['#ff6347','#ffff00','#ee82ee'],500);
+$('#musicDiv').musicify('http://stephenrippy.com/media/music/Soundtracks_Noddinagushpa.mp3', {controls:"true",autoplay:"true"});
