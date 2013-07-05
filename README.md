@@ -32,7 +32,7 @@ Turn a div into an ```<audio>``` object.
 ```
 // musicify() function generic
 
-('thing').musicify('file', options);
+$('thing').musicify('file', options);
 
 // Example
 
