@@ -9,7 +9,7 @@
         "video",
         "music"
     ],
-    "version": "1.0.0",
+    "version": "1.0.3",
     "author": {
         "name": "jQuery Foundation and other contributors",
         "url": "https://github.com/jquery/jquery-color/blob/2.1.2/AUTHORS.txt"
